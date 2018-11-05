@@ -1,8 +1,8 @@
 require 'test_helper'
 
 class DemoControllerTest < ActionDispatch::IntegrationTest
-  test "should get index" do
-    get demo_index_url
+  test "should get create" do
+    get demo_create_url
     assert_response :success
   end
 
