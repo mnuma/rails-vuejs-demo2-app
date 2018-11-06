@@ -14,6 +14,8 @@ gem 'pg', :group => :production
 
 gem 'mysql2'
 
+gem 'firebase-auth'
+
 # Use Puma as the app server
 gem 'puma', '~> 3.11'
 # Use SCSS for stylesheets
